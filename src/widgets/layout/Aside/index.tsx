@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/app/styles/aside.module.css";
+import styles from "./aside.module.css";
 
 interface AsideProps {
   children?: React.ReactNode;
