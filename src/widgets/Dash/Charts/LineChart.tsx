@@ -51,7 +51,7 @@ const LineChart: React.FC<LineChartProps> = ({ data, options }) => {
   };
 
   return (
-    <div style={{ width: "100%", height: "400px" }}>
+    <div style={{ width: "800px", height: "400px" }}>
       <Line data={data} options={{ ...defaultOptions, ...options }} />
     </div>
   );
