@@ -5,6 +5,11 @@ import React from "react";
 const API_URL =
   "http://ec2-13-209-22-133.ap-northeast-2.compute.amazonaws.com:8080/cluster/2";
 
+/**
+ * Sends a GET request to the API endpoint and returns the parsed JSON response.
+ *
+ * @returns The parsed JSON data from the API response, or null if the request fails.
+ */
 async function testAPI() {
   try {
     const response = await fetch(API_URL);
